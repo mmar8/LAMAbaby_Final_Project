@@ -33,6 +33,11 @@ class LamaBabyUITests: XCTestCase {
     func testGetToCodeScreen() {
         app.buttons["I'm a babysitter"].tap()
         XCTAssertTrue(app.staticTexts["Enter your code"].exists)
+        app.textFields["123456"].tap()
+        app.textFields["123456"].typeText("myPassword")
+        XCTAssertTrue(app.textFields["myPassword"].exists)
+        app.buttons["Submit"].tap()
+        XCTAssertTrue(app.staticTexts["Schedule"].exists)
     }
 
 }
