@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC8FC9E226731D5005DA953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FC9D226731D5005DA953 /* AppDelegate.swift */; };
+		3FC8FCA0226731D5005DA953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FC9F226731D5005DA953 /* ViewController.swift */; };
+		3FC8FCA3226731D5005DA953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FCA1226731D5005DA953 /* Main.storyboard */; };
+		3FC8FCA5226731D7005DA953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FCA4226731D7005DA953 /* Assets.xcassets */; };
+		3FC8FCA8226731D7005DA953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FCA6226731D7005DA953 /* LaunchScreen.storyboard */; };
+		3FC8FCB3226731D7005DA953 /* LamaBabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FCB2226731D7005DA953 /* LamaBabyTests.swift */; };
+		3FC8FCBE226731D7005DA953 /* LamaBabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FCBD226731D7005DA953 /* LamaBabyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC8FCAF226731D7005DA953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC8FC92226731D5005DA953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC8FC99226731D5005DA953;
+			remoteInfo = LamaBaby;
+		};
+		3FC8FCBA226731D7005DA953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC8FC92226731D5005DA953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC8FC99226731D5005DA953;
+			remoteInfo = LamaBaby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC8FC9A226731D5005DA953 /* LamaBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LamaBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8FC9D226731D5005DA953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC8FC9F226731D5005DA953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC8FCA2226731D5005DA953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC8FCA4226731D7005DA953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC8FCA7226731D7005DA953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC8FCA9226731D7005DA953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC8FCAE226731D7005DA953 /* LamaBabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamaBabyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8FCB2226731D7005DA953 /* LamaBabyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamaBabyTests.swift; sourceTree = "<group>"; };
+		3FC8FCB4226731D7005DA953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC8FCB9226731D7005DA953 /* LamaBabyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamaBabyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8FCBD226731D7005DA953 /* LamaBabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamaBabyUITests.swift; sourceTree = "<group>"; };
+		3FC8FCBF226731D7005DA953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC8FC97226731D5005DA953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8FCAB226731D7005DA953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8FCB6226731D7005DA953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC8FC91226731D5005DA953 = {
+			isa = PBXGroup;
+			children = (
+				3FC8FC9C226731D5005DA953 /* LamaBaby */,
+				3FC8FCB1226731D7005DA953 /* LamaBabyTests */,
+				3FC8FCBC226731D7005DA953 /* LamaBabyUITests */,
+				3FC8FC9B226731D5005DA953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC8FC9B226731D5005DA953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8FC9A226731D5005DA953 /* LamaBaby.app */,
+				3FC8FCAE226731D7005DA953 /* LamaBabyTests.xctest */,
+				3FC8FCB9226731D7005DA953 /* LamaBabyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC8FC9C226731D5005DA953 /* LamaBaby */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8FC9D226731D5005DA953 /* AppDelegate.swift */,
+				3FC8FC9F226731D5005DA953 /* ViewController.swift */,
+				3FC8FCA1226731D5005DA953 /* Main.storyboard */,
+				3FC8FCA4226731D7005DA953 /* Assets.xcassets */,
+				3FC8FCA6226731D7005DA953 /* LaunchScreen.storyboard */,
+				3FC8FCA9226731D7005DA953 /* Info.plist */,
+			);
+			path = LamaBaby;
+			sourceTree = "<group>";
+		};
+		3FC8FCB1226731D7005DA953 /* LamaBabyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8FCB2226731D7005DA953 /* LamaBabyTests.swift */,
+				3FC8FCB4226731D7005DA953 /* Info.plist */,
+			);
+			path = LamaBabyTests;
+			sourceTree = "<group>";
+		};
+		3FC8FCBC226731D7005DA953 /* LamaBabyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8FCBD226731D7005DA953 /* LamaBabyUITests.swift */,
+				3FC8FCBF226731D7005DA953 /* Info.plist */,
+			);
+			path = LamaBabyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC8FC99226731D5005DA953 /* LamaBaby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8FCC2226731D7005DA953 /* Build configuration list for PBXNativeTarget "LamaBaby" */;
+			buildPhases = (
+				3FC8FC96226731D5005DA953 /* Sources */,
+				3FC8FC97226731D5005DA953 /* Frameworks */,
+				3FC8FC98226731D5005DA953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LamaBaby;
+			productName = LamaBaby;
+			productReference = 3FC8FC9A226731D5005DA953 /* LamaBaby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC8FCAD226731D7005DA953 /* LamaBabyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8FCC5226731D7005DA953 /* Build configuration list for PBXNativeTarget "LamaBabyTests" */;
+			buildPhases = (
+				3FC8FCAA226731D7005DA953 /* Sources */,
+				3FC8FCAB226731D7005DA953 /* Frameworks */,
+				3FC8FCAC226731D7005DA953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC8FCB0226731D7005DA953 /* PBXTargetDependency */,
+			);
+			name = LamaBabyTests;
+			productName = LamaBabyTests;
+			productReference = 3FC8FCAE226731D7005DA953 /* LamaBabyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC8FCB8226731D7005DA953 /* LamaBabyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8FCC8226731D7005DA953 /* Build configuration list for PBXNativeTarget "LamaBabyUITests" */;
+			buildPhases = (
+				3FC8FCB5226731D7005DA953 /* Sources */,
+				3FC8FCB6226731D7005DA953 /* Frameworks */,
+				3FC8FCB7226731D7005DA953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC8FCBB226731D7005DA953 /* PBXTargetDependency */,
+			);
+			name = LamaBabyUITests;
+			productName = LamaBabyUITests;
+			productReference = 3FC8FCB9226731D7005DA953 /* LamaBabyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC8FC92226731D5005DA953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sexy Lama Ltd";
+				TargetAttributes = {
+					3FC8FC99226731D5005DA953 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3FC8FCAD226731D7005DA953 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3FC8FC99226731D5005DA953;
+					};
+					3FC8FCB8226731D7005DA953 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3FC8FC99226731D5005DA953;
+					};
+				};
+			};
+			buildConfigurationList = 3FC8FC95226731D5005DA953 /* Build configuration list for PBXProject "LamaBaby" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC8FC91226731D5005DA953;
+			productRefGroup = 3FC8FC9B226731D5005DA953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC8FC99226731D5005DA953 /* LamaBaby */,
+				3FC8FCAD226731D7005DA953 /* LamaBabyTests */,
+				3FC8FCB8226731D7005DA953 /* LamaBabyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC8FC98226731D5005DA953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8FCA8226731D7005DA953 /* LaunchScreen.storyboard in Resources */,
+				3FC8FCA5226731D7005DA953 /* Assets.xcassets in Resources */,
+				3FC8FCA3226731D5005DA953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8FCAC226731D7005DA953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8FCB7226731D7005DA953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC8FC96226731D5005DA953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8FCA0226731D5005DA953 /* ViewController.swift in Sources */,
+				3FC8FC9E226731D5005DA953 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8FCAA226731D7005DA953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8FCB3226731D7005DA953 /* LamaBabyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8FCB5226731D7005DA953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8FCBE226731D7005DA953 /* LamaBabyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC8FCB0226731D7005DA953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC8FC99226731D5005DA953 /* LamaBaby */;
+			targetProxy = 3FC8FCAF226731D7005DA953 /* PBXContainerItemProxy */;
+		};
+		3FC8FCBB226731D7005DA953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC8FC99226731D5005DA953 /* LamaBaby */;
+			targetProxy = 3FC8FCBA226731D7005DA953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC8FCA1226731D5005DA953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC8FCA2226731D5005DA953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC8FCA6226731D7005DA953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC8FCA7226731D7005DA953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC8FCC0226731D7005DA953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FC8FCC1226731D7005DA953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC8FCC3226731D7005DA953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LamaBaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBaby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC8FCC4226731D7005DA953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LamaBaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBaby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FC8FCC6226731D7005DA953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LamaBabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBabyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LamaBaby.app/LamaBaby";
+			};
+			name = Debug;
+		};
+		3FC8FCC7226731D7005DA953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LamaBabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBabyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LamaBaby.app/LamaBaby";
+			};
+			name = Release;
+		};
+		3FC8FCC9226731D7005DA953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LamaBabyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBabyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LamaBaby;
+			};
+			name = Debug;
+		};
+		3FC8FCCA226731D7005DA953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LamaBabyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBabyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LamaBaby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC8FC95226731D5005DA953 /* Build configuration list for PBXProject "LamaBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8FCC0226731D7005DA953 /* Debug */,
+				3FC8FCC1226731D7005DA953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8FCC2226731D7005DA953 /* Build configuration list for PBXNativeTarget "LamaBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8FCC3226731D7005DA953 /* Debug */,
+				3FC8FCC4226731D7005DA953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8FCC5226731D7005DA953 /* Build configuration list for PBXNativeTarget "LamaBabyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8FCC6226731D7005DA953 /* Debug */,
+				3FC8FCC7226731D7005DA953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8FCC8226731D7005DA953 /* Build configuration list for PBXNativeTarget "LamaBabyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8FCC9226731D7005DA953 /* Debug */,
+				3FC8FCCA226731D7005DA953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC8FC92226731D5005DA953 /* Project object */;
+}
