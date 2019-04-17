@@ -39,5 +39,22 @@ class LamaBabyUITests: XCTestCase {
         app.buttons["Submit"].tap()
         XCTAssertTrue(app.staticTexts["Schedule"].exists)
     }
+    
+    func testRegistration() {
+        app.buttons["I'm a parent"].tap()
+        app.buttons["Register Now"].tap()
+        
+        app.textFields["Username"].tap()
+        app.textFields["Username"].typeText("parent999")
+        
+        app.secureTextFields["phteven"].tap()
+        app.secureTextFields["phteven"].typeText("123456")
+        
+        app.secureTextFields["phteven (confirm)"].tap()
+        app.secureTextFields["phteven (confirm)"].typeText("123456")
+        
+        app.buttons["Submit"].tap()
+        XCTAssertTrue(app.buttons["Create Schedule"].exists)
+    }
 
 }
