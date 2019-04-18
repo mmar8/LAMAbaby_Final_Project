@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     @IBOutlet var swipeBaby: UIView!
     override func viewDidLoad() {
@@ -16,8 +18,11 @@ class ViewController: UIViewController {
        
        
     }
-
+    
+    
     
     
 }
+
+
 

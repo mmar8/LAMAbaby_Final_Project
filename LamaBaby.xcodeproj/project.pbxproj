@@ -14,6 +14,9 @@
 		3FC8FCA8226731D7005DA953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FCA6226731D7005DA953 /* LaunchScreen.storyboard */; };
 		3FC8FCB3226731D7005DA953 /* LamaBabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FCB2226731D7005DA953 /* LamaBabyTests.swift */; };
 		3FC8FCBE226731D7005DA953 /* LamaBabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FCBD226731D7005DA953 /* LamaBabyUITests.swift */; };
+		B88528AE2268923600A91E39 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528AD2268923600A91E39 /* AddItemVC.swift */; };
+		B88528B02268941600A91E39 /* NewScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528AF2268941600A91E39 /* NewScheduleVC.swift */; };
+		B88528B32268B87C00A91E39 /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528B22268B87C00A91E39 /* ScheduleItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3FC8FCB9226731D7005DA953 /* LamaBabyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamaBabyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC8FCBD226731D7005DA953 /* LamaBabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamaBabyUITests.swift; sourceTree = "<group>"; };
 		3FC8FCBF226731D7005DA953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88528AD2268923600A91E39 /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
+		B88528AF2268941600A91E39 /* NewScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScheduleVC.swift; sourceTree = "<group>"; };
+		B88528B22268B87C00A91E39 /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		3FC8FC9C226731D5005DA953 /* LamaBaby */ = {
 			isa = PBXGroup;
 			children = (
+				B88528B12268B86600A91E39 /* Models */,
 				3FC8FC9D226731D5005DA953 /* AppDelegate.swift */,
 				3FC8FC9F226731D5005DA953 /* ViewController.swift */,
 				3FC8FCA1226731D5005DA953 /* Main.storyboard */,
 				3FC8FCA4226731D7005DA953 /* Assets.xcassets */,
 				3FC8FCA6226731D7005DA953 /* LaunchScreen.storyboard */,
 				3FC8FCA9226731D7005DA953 /* Info.plist */,
+				B88528AD2268923600A91E39 /* AddItemVC.swift */,
+				B88528AF2268941600A91E39 /* NewScheduleVC.swift */,
 			);
 			path = LamaBaby;
 			sourceTree = "<group>";
@@ -123,6 +132,14 @@
 				3FC8FCBF226731D7005DA953 /* Info.plist */,
 			);
 			path = LamaBabyUITests;
+			sourceTree = "<group>";
+		};
+		B88528B12268B86600A91E39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B88528B22268B87C00A91E39 /* ScheduleItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC8FCA0226731D5005DA953 /* ViewController.swift in Sources */,
+				B88528AE2268923600A91E39 /* AddItemVC.swift in Sources */,
+				B88528B02268941600A91E39 /* NewScheduleVC.swift in Sources */,
+				B88528B32268B87C00A91E39 /* ScheduleItem.swift in Sources */,
 				3FC8FC9E226731D5005DA953 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
