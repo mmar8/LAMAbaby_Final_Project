@@ -8,11 +8,13 @@
 
 import UIKit
 
-class NewSchedule: UIViewController, ItemComplitedDelegate, UITableViewDataSource, UITableViewDelegate {
+class NewScheduleVC: UIViewController, ItemComplitedDelegate, UITableViewDataSource, UITableViewDelegate {
     
-    var items = [ScheduleItem]()
-    var item1 = ScheduleItem(title: "Breakfast", time: "08:00")
+    var items = [ScheduleItemModel]()
+    var item1 = ScheduleItemModel(title: "Breakfast", time: "08:00")
+    var delegate: ScheduleCompletedDelegate?
     
+    @IBOutlet weak var scheduleNameTextField: UITextField!
     @IBOutlet weak var itemsTableVIew: UITableView!
     
     override func viewDidLoad() {
@@ -26,7 +28,7 @@ class NewSchedule: UIViewController, ItemComplitedDelegate, UITableViewDataSourc
     }
     
     func savedButtonPressed(title: String, time: String) {
-        let newItem = ScheduleItem(title: title, time: time)
+        let newItem = ScheduleItemModel(title: title, time: time)
         self.items.append(newItem)
         self.itemsTableVIew.reloadData()
     }
@@ -46,6 +48,10 @@ class NewSchedule: UIViewController, ItemComplitedDelegate, UITableViewDataSourc
         let cell = tableView.dequeueReusableCell(withIdentifier: "itemCell", for:  indexPath) as UITableViewCell
         cell.textLabel?.text = "\(self.items[indexPath.row].time ?? "No Time"): \(self.items[indexPath.row].title ?? "No Description")"
         return cell
+    }
+    @IBAction func btnSaveScheduleTapped(_ sender: Any) {
+        self.delegate?.saveSchedule(scheduleName: scheduleNameTextField.text!, scheduleItems: self.items)
+        self.dismiss(animated: true, completion: nil)
     }
 }
 

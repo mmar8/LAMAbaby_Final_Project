@@ -8,10 +8,10 @@
 
 import Foundation
 
-class ScheduleItem {
+class ScheduleItemModel {
     
-    var title: String?
-    var time: String?
+    var title: String = ""
+    var time: String = ""
     
     init(title: String, time: String) {
         self.time = time

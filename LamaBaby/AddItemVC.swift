@@ -10,6 +10,8 @@ import UIKit
 
 class AddItemVC: UIViewController {
     
+    var futureDate: Date?
+    
     @IBOutlet weak var Task: UITextField!
     @IBOutlet weak var timePicker: UIDatePicker!
     var delegate: ItemComplitedDelegate?
@@ -17,7 +19,6 @@ class AddItemVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Add item loaded")
     }
     
     @IBAction func btnSavePressed(_ sender: Any) {
