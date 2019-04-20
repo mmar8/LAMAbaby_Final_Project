@@ -14,8 +14,9 @@
 		3FC8FCA8226731D7005DA953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FCA6226731D7005DA953 /* LaunchScreen.storyboard */; };
 		3FC8FCB3226731D7005DA953 /* LamaBabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FCB2226731D7005DA953 /* LamaBabyTests.swift */; };
 		3FC8FCBE226731D7005DA953 /* LamaBabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FCBD226731D7005DA953 /* LamaBabyUITests.swift */; };
+		4971A5F8226A08BF00DB9846 /* parentLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A5F7226A08BF00DB9846 /* parentLoginVC.swift */; };
 		49E7DABB2269E62200D9E3F6 /* ScheduleListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7DABA2269E62200D9E3F6 /* ScheduleListModel.swift */; };
-		49E7DABD2269E6E600D9E3F6 /* ScheduleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7DABC2269E6E600D9E3F6 /* ScheduleList.swift */; };
+		49E7DABD2269E6E600D9E3F6 /* ScheduleListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7DABC2269E6E600D9E3F6 /* ScheduleListVC.swift */; };
 		B88528AE2268923600A91E39 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528AD2268923600A91E39 /* AddItemVC.swift */; };
 		B88528B02268941600A91E39 /* NewScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528AF2268941600A91E39 /* NewScheduleVC.swift */; };
 		B88528B32268B87C00A91E39 /* ScheduleItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528B22268B87C00A91E39 /* ScheduleItemModel.swift */; };
@@ -52,8 +53,9 @@
 		3FC8FCB9226731D7005DA953 /* LamaBabyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamaBabyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC8FCBD226731D7005DA953 /* LamaBabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamaBabyUITests.swift; sourceTree = "<group>"; };
 		3FC8FCBF226731D7005DA953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4971A5F7226A08BF00DB9846 /* parentLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parentLoginVC.swift; sourceTree = "<group>"; };
 		49E7DABA2269E62200D9E3F6 /* ScheduleListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListModel.swift; sourceTree = "<group>"; };
-		49E7DABC2269E6E600D9E3F6 /* ScheduleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleList.swift; sourceTree = "<group>"; };
+		49E7DABC2269E6E600D9E3F6 /* ScheduleListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListVC.swift; sourceTree = "<group>"; };
 		B88528AD2268923600A91E39 /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
 		B88528AF2268941600A91E39 /* NewScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScheduleVC.swift; sourceTree = "<group>"; };
 		B88528B22268B87C00A91E39 /* ScheduleItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItemModel.swift; sourceTree = "<group>"; };
@@ -116,7 +118,8 @@
 				3FC8FCA9226731D7005DA953 /* Info.plist */,
 				B88528AD2268923600A91E39 /* AddItemVC.swift */,
 				B88528AF2268941600A91E39 /* NewScheduleVC.swift */,
-				49E7DABC2269E6E600D9E3F6 /* ScheduleList.swift */,
+				49E7DABC2269E6E600D9E3F6 /* ScheduleListVC.swift */,
+				4971A5F7226A08BF00DB9846 /* parentLoginVC.swift */,
 			);
 			path = LamaBaby;
 			sourceTree = "<group>";
@@ -280,7 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC8FCA0226731D5005DA953 /* ViewController.swift in Sources */,
-				49E7DABD2269E6E600D9E3F6 /* ScheduleList.swift in Sources */,
+				49E7DABD2269E6E600D9E3F6 /* ScheduleListVC.swift in Sources */,
+				4971A5F8226A08BF00DB9846 /* parentLoginVC.swift in Sources */,
 				B88528AE2268923600A91E39 /* AddItemVC.swift in Sources */,
 				B88528B02268941600A91E39 /* NewScheduleVC.swift in Sources */,
 				B88528B32268B87C00A91E39 /* ScheduleItemModel.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ScheduleList: UIViewController, ScheduleCompletedDelegate, UITableViewDelegate, UITableViewDataSource {
+class ScheduleListVC: UIViewController, ScheduleCompletedDelegate, UITableViewDelegate, UITableViewDataSource {
     
     var schedules = [ScheduleListModel]()
     @IBOutlet weak var scheduleListTableView: UITableView!
