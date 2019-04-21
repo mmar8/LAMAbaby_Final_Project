@@ -28,11 +28,8 @@ class ScheduleListVC: UIViewController, ScheduleCompletedDelegate, UITableViewDe
     }
     
     func saveSchedule(scheduleName: String, scheduleItems: [ScheduleItemModel]) {
-        print("items: \(scheduleItems.count)")
         let schedule = ScheduleListModel(listName: scheduleName, scheduleItems: scheduleItems)
-        print("built this schedule: \(String(describing: schedule.schedules))")
         self.schedules.append(schedule)
-        print("SCHED: \(self.schedules.count)")
         self.scheduleListTableView.reloadData()
     }
     
@@ -47,7 +44,15 @@ class ScheduleListVC: UIViewController, ScheduleCompletedDelegate, UITableViewDe
         return cell
     }
     
-    @IBAction func btnCancelTapped(_ sender: Any) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedSchedule = schedules[indexPath.row]
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let showScheduleViewController = storyBoard.instantiateViewController(withIdentifier: "ShowScheduleViewController") as! ShowScheduleViewController
+        showScheduleViewController.schedule = selectedSchedule
+        self.present(showScheduleViewController, animated: true, completion: nil)
+    }
+    
+    @IBAction func btnLogoutTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
 }
