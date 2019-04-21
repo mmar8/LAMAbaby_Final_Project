@@ -12,7 +12,7 @@ class AddItemVC: UIViewController {
     
     var futureDate: Date?
     
-    @IBOutlet weak var Task: UITextField!
+    @IBOutlet weak var itemTitle: UITextField!
     @IBOutlet weak var timePicker: UIDatePicker!
     var delegate: ItemComplitedDelegate?
     
@@ -27,10 +27,15 @@ class AddItemVC: UIViewController {
         let dateFormat = DateFormatter()
         dateFormat.dateFormat = "HH:mm"
         let selectedDate = dateFormat.string(from: timeFormat)
-        print(selectedDate)
-        let task = Task.text
-        self.delegate?.savedButtonPressed(title: task!, time: selectedDate)
-        self.dismiss(animated: true, completion: nil)
+        let title = itemTitle.text!
+        
+        if title != "" {
+            self.delegate?.savedButtonPressed(title: title, time: selectedDate)
+            self.dismiss(animated: true, completion: nil)
+        } else {
+            itemTitle.layer.borderWidth = 2.5
+            itemTitle.layer.borderColor = UIColor.red.cgColor
+        }
         
     }
 }

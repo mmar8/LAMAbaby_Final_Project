@@ -11,7 +11,6 @@ import UIKit
 class NewScheduleVC: UIViewController, ItemComplitedDelegate, UITableViewDataSource, UITableViewDelegate {
     
     var items = [ScheduleItemModel]()
-    var item1 = ScheduleItemModel(title: "Breakfast", time: "08:00")
     var delegate: ScheduleCompletedDelegate?
     
     @IBOutlet weak var scheduleNameTextField: UITextField!
@@ -24,7 +23,6 @@ class NewScheduleVC: UIViewController, ItemComplitedDelegate, UITableViewDataSou
         itemsTableVIew.dataSource = self
         itemsTableVIew.delegate = self
         
-        items.append(item1)
     }
     
     func savedButtonPressed(title: String, time: String) {
@@ -49,8 +47,18 @@ class NewScheduleVC: UIViewController, ItemComplitedDelegate, UITableViewDataSou
         cell.textLabel?.text = "\(self.items[indexPath.row].time ?? "No Time"): \(self.items[indexPath.row].title ?? "No Description")"
         return cell
     }
+    
     @IBAction func btnSaveScheduleTapped(_ sender: Any) {
-        self.delegate?.saveSchedule(scheduleName: scheduleNameTextField.text!, scheduleItems: self.items)
+        if scheduleNameTextField.text != "" {
+            self.delegate?.saveSchedule(scheduleName: scheduleNameTextField.text!, scheduleItems: self.items)
+            self.dismiss(animated: true, completion: nil)
+        } else {
+            scheduleNameTextField.layer.borderWidth = 2.0
+            scheduleNameTextField.layer.borderColor = UIColor.red.cgColor
+        }
+    }
+    
+    @IBAction func btnCancelTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
 }

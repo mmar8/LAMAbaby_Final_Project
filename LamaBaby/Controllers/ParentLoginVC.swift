@@ -19,6 +19,12 @@ class ParentLoginVC: UIViewController {
     override func viewDidLoad() {
        super.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        userName.text = ""
+        password.text = ""
+    }
+    
     @IBAction func btnSubmitPress(_ sender: Any) {
         let user = userName.text!
         let pword = password.text!
@@ -30,5 +36,5 @@ class ParentLoginVC: UIViewController {
         } else {
             feedbackLabel.text = "Bad credentials. Try again."
         }
-    }
+    }    
 }
