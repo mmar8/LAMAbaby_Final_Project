@@ -33,7 +33,7 @@ class ShowScheduleViewController: UIViewController, UITableViewDataSource, UITab
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "scheduleItemCell", for: indexPath) as UITableViewCell
-        cell.textLabel?.text = "\(schedule!.schedules[indexPath.row].time): \(schedule!.schedules[indexPath.row].title)"
+        cell.textLabel?.text = "\(schedule!.schedules[indexPath.row].time) - \(schedule!.schedules[indexPath.row].title)"
         return cell
     }
     
