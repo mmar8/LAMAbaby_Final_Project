@@ -54,7 +54,7 @@ class ScheduleListVC: UIViewController, ScheduleCompletedDelegate, UITableViewDe
     
     @IBAction func btnLogoutTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
-    }
+    }       
 }
 
 protocol ScheduleCompletedDelegate {

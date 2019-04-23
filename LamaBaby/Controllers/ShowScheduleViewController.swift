@@ -13,6 +13,7 @@ class ShowScheduleViewController: UIViewController, UITableViewDataSource, UITab
     @IBOutlet weak var scheduleItemsTableView: UITableView!
     @IBOutlet weak var scheduleTitleLabel: UILabel!
     var schedule: ScheduleListModel?
+    private let carerCode: String = "134657"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,13 @@ class ShowScheduleViewController: UIViewController, UITableViewDataSource, UITab
         return cell
     }
     
+    @IBAction func shareButtonTapped(_ sender: Any) {
+        let alert = UIAlertController(title: "Carer Code", message: "Please share this code with your carer: \(carerCode)", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+            NSLog("The \"OK\" alert occured.")
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
     
     @IBAction func btnBackTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
