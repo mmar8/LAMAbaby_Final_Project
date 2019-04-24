@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		209C556122706B240065D3E2 /* bastien-jaillot-175465-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 209C556022706B240065D3E2 /* bastien-jaillot-175465-unsplash.jpg */; };
-		209C556322706C540065D3E2 /* bastien-jaillot-175465-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 209C556222706C540065D3E2 /* bastien-jaillot-175465-unsplash.jpg */; };
+		209C5567227092760065D3E2 /* homepagepic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 209C5566227092750065D3E2 /* homepagepic.jpg */; };
 		3FC8FC9E226731D5005DA953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FC9D226731D5005DA953 /* AppDelegate.swift */; };
 		3FC8FCA0226731D5005DA953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FC9F226731D5005DA953 /* ViewController.swift */; };
 		3FC8FCA3226731D5005DA953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FCA1226731D5005DA953 /* Main.storyboard */; };
@@ -45,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		209C556022706B240065D3E2 /* bastien-jaillot-175465-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bastien-jaillot-175465-unsplash.jpg"; path = "../../../../Downloads/bastien-jaillot-175465-unsplash.jpg"; sourceTree = "<group>"; };
-		209C556222706C540065D3E2 /* bastien-jaillot-175465-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bastien-jaillot-175465-unsplash.jpg"; sourceTree = "<group>"; };
+		209C5566227092750065D3E2 /* homepagepic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepagepic.jpg; sourceTree = "<group>"; };
 		3FC8FC9A226731D5005DA953 /* LamaBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LamaBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC8FC9D226731D5005DA953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC8FC9F226731D5005DA953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 				3FC8FCB1226731D7005DA953 /* LamaBabyTests */,
 				3FC8FCBC226731D7005DA953 /* LamaBabyUITests */,
 				3FC8FC9B226731D5005DA953 /* Products */,
-				209C556222706C540065D3E2 /* bastien-jaillot-175465-unsplash.jpg */,
+				209C5566227092750065D3E2 /* homepagepic.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,8 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				209C556122706B240065D3E2 /* bastien-jaillot-175465-unsplash.jpg in Resources */,
+				209C5567227092760065D3E2 /* homepagepic.jpg in Resources */,
 				3FC8FCA8226731D7005DA953 /* LaunchScreen.storyboard in Resources */,
-				209C556322706C540065D3E2 /* bastien-jaillot-175465-unsplash.jpg in Resources */,
 				3FC8FCA5226731D7005DA953 /* Assets.xcassets in Resources */,
 				3FC8FCA3226731D5005DA953 /* Main.storyboard in Resources */,
 			);
@@ -489,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,6 +526,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -544,6 +547,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -563,6 +567,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -582,6 +587,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
