@@ -44,7 +44,7 @@ class NewScheduleVC: UIViewController, ItemComplitedDelegate, UITableViewDataSou
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "itemCell", for:  indexPath) as UITableViewCell
-        cell.textLabel?.text = "\(self.items[indexPath.row].time ?? "No Time") - \(self.items[indexPath.row].title ?? "No Description")"
+        cell.textLabel?.text = "\(self.items[indexPath.row].time ) - \(self.items[indexPath.row].title )"
         return cell
     }
     
