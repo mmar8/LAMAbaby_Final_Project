@@ -89,23 +89,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgi-KA-fCY">
-                                <rect key="frame" x="16" y="293" width="155" height="81"/>
+                                <rect key="frame" x="16" y="351" width="155" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="I'm a babysitter"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <state key="normal" title="I'm a babysitter">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="srd-gF-tvp" kind="show" id="Zzz-qA-xb7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xy9-mc-Adr">
-                                <rect key="frame" x="245" y="318" width="114" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bastien-jaillot-175465-unsplash.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dkD-dB-eC9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="295"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="I'm a parent"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome to LAMABaby" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zu9-nX-Vzh">
+                                <rect key="frame" x="16" y="229" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.91694015264511108" green="0.90658301115036011" blue="0.86273908615112305" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.91694015264511108" green="0.90658301115036011" blue="0.86273908615112305" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xy9-mc-Adr">
+                                <rect key="frame" x="245" y="371" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <state key="normal" title="I'm a parent">
+                                    <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="lvE-HJ-4kp" kind="show" id="03G-31-asl"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.91694015259999995" green="0.90658301119999996" blue="0.86273908619999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -115,7 +134,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="sio-jW-U4C"/>
             </objects>
-            <point key="canvasLocation" x="185" y="-208"/>
+            <point key="canvasLocation" x="184.80000000000001" y="-208.24587706146929"/>
         </scene>
         <!--Parent LoginVC-->
         <scene sceneID="9Wc-jW-afK">
@@ -443,4 +462,7 @@
             <point key="canvasLocation" x="4090.4000000000001" y="144.3778110944528"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bastien-jaillot-175465-unsplash.jpg" width="4896" height="3264"/>
+    </resources>
 </document>
