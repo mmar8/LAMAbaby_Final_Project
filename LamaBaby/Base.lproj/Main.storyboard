@@ -230,6 +230,38 @@
             </objects>
             <point key="canvasLocation" x="1765.5999999999999" y="-484.40779610194909"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="LTo-KP-qOo">
+            <objects>
+                <viewController id="JWs-0q-qTy" customClass="ARViewController" customModule="LamaBaby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3IW-VW-0Oh" customClass="This">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rFH-ak-mRJ">
+                                <rect key="frame" x="0.0" y="79" width="375" height="588"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1j-Ee-QfQ">
+                                <rect key="frame" x="16" y="31" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="back:" destination="JWs-0q-qTy" eventType="touchUpInside" id="dzN-ps-5s2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6F3-BH-oeU"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="rFH-ak-mRJ" id="SXv-R8-Xul"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVT-wi-UqU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1045.5999999999999" y="867.61619190404804"/>
+        </scene>
         <!--ShowScheduleViewController-->
         <scene sceneID="bbQ-zw-iRL">
             <objects>
@@ -254,7 +286,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="E5N-Mg-SNn">
-                                <rect key="frame" x="0.0" y="99" width="375" height="568"/>
+                                <rect key="frame" x="0.0" y="204" width="375" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -274,6 +306,14 @@
                                 <state key="normal" title="Share"/>
                                 <connections>
                                     <action selector="shareButtonTapped:" destination="D0E-0f-WQK" eventType="touchUpInside" id="ZxD-Bg-zGN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHi-RO-9wJ">
+                                <rect key="frame" x="22" y="128" width="337" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AR View"/>
+                                <connections>
+                                    <segue destination="JWs-0q-qTy" kind="show" id="xov-VZ-6CR"/>
                                 </connections>
                             </button>
                         </subviews>
