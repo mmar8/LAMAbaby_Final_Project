@@ -27,9 +27,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xt2-hY-lij">
-                                <rect key="frame" x="33" y="20" width="54" height="30"/>
+                                <rect key="frame" x="28" y="20" width="72" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <color key="backgroundColor" red="0.59848010540008545" green="0.72100669145584106" blue="0.59866899251937866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="backButtonPressed:" destination="MN9-Vp-3tW" eventType="touchUpInside" id="NKe-1Z-B0Y"/>
                                 </connections>
@@ -87,9 +90,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zt-iv-Q46">
-                                <rect key="frame" x="27" y="20" width="54" height="30"/>
+                                <rect key="frame" x="27" y="13" width="61" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <color key="backgroundColor" red="0.59848010540008545" green="0.72100669145584106" blue="0.59866899251937866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="backButtonPressed:" destination="srd-gF-tvp" eventType="touchUpInside" id="UGF-vI-FwP"/>
                                     <action selector="backButtonPressed:" destination="MN9-Vp-3tW" eventType="touchUpInside" id="aEX-1v-XCe"/>
