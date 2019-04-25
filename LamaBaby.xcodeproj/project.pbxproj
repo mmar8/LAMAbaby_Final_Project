@@ -161,7 +161,6 @@
 				3F3FC1DD227070D100193DC3 /* ARViewController.swift */,
 				B8059B2C2270B78E001AEE65 /* CarerScheduleViewController.swift */,
 				B8059B2E2270B943001AEE65 /* CarerCodeEntryViewController.swift */,
-
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -494,13 +493,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6JV4JZFT3S;
+				DEVELOPMENT_TEAM = 4Z35B3KKDP;
 				INFOPLIST_FILE = LamaBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lamatron.Lama.LamaBaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lamatron.LamaBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,13 +511,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6JV4JZFT3S;
+				DEVELOPMENT_TEAM = 4Z35B3KKDP;
 				INFOPLIST_FILE = LamaBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lamatron.Lama.LamaBaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lamatron.LamaBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
