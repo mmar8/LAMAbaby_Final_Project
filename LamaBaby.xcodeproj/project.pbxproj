@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3FC1DE227070D100193DC3 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FC1DD227070D100193DC3 /* ARViewController.swift */; };
 		3FC8FC9E226731D5005DA953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FC9D226731D5005DA953 /* AppDelegate.swift */; };
 		3FC8FCA0226731D5005DA953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FC9F226731D5005DA953 /* ViewController.swift */; };
 		3FC8FCA3226731D5005DA953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8FCA1226731D5005DA953 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F3FC1DD227070D100193DC3 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		3FC8FC9A226731D5005DA953 /* LamaBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LamaBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC8FC9D226731D5005DA953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC8FC9F226731D5005DA953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,8 +158,10 @@
 				4971A5F7226A08BF00DB9846 /* ParentLoginVC.swift */,
 				490550BD226C5C5200716BC7 /* RegisterViewController.swift */,
 				490550BF226C646500716BC7 /* ShowScheduleViewController.swift */,
+				3F3FC1DD227070D100193DC3 /* ARViewController.swift */,
 				B8059B2C2270B78E001AEE65 /* CarerScheduleViewController.swift */,
 				B8059B2E2270B943001AEE65 /* CarerCodeEntryViewController.swift */,
+
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -235,7 +239,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Sexy Lama Ltd";
+				ORGANIZATIONNAME = "Lamatron Ltd";
 				TargetAttributes = {
 					3FC8FC99226731D5005DA953 = {
 						CreatedOnToolsVersion = 10.2;
@@ -313,6 +317,7 @@
 				B88528B32268B87C00A91E39 /* ScheduleItemModel.swift in Sources */,
 				49E7DABB2269E62200D9E3F6 /* ScheduleListModel.swift in Sources */,
 				3FC8FC9E226731D5005DA953 /* AppDelegate.swift in Sources */,
+				3F3FC1DE227070D100193DC3 /* ARViewController.swift in Sources */,
 				B8059B2D2270B78E001AEE65 /* CarerScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,7 +500,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lamatron.Lama.LamaBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -513,7 +518,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lamatron.LamaBaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lamatron.Lama.LamaBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
