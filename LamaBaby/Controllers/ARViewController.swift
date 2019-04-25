@@ -87,7 +87,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
             let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
             
             //Set the transparency of our plane to mostly see-through
-            plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.25)
+            plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.9)
             
             //Create a plane node using the newly-defined plane
             let planeNode = SCNNode(geometry: plane)
@@ -95,6 +95,9 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
             //Plane is created standing up off the anchor
             //Rotate it 90 degrees around the X axis so that our plane lies flat on our reference image
             planeNode.eulerAngles.x = -.pi/2
+            
+            //Adjust the position of the cone
+            //planeNode.position = SCNVector3Make(0, -1, 0)
             
             //Stick our plane node onto the main node
             node.addChildNode(planeNode)
