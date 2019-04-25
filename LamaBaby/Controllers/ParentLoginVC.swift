@@ -37,4 +37,7 @@ class ParentLoginVC: UIViewController {
             feedbackLabel.text = "Bad credentials. Try again."
         }
     }    
+    @IBAction func backButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }

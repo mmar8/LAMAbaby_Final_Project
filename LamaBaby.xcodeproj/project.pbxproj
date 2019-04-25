@@ -20,6 +20,8 @@
 		4971A5F8226A08BF00DB9846 /* ParentLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A5F7226A08BF00DB9846 /* ParentLoginVC.swift */; };
 		49E7DABB2269E62200D9E3F6 /* ScheduleListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7DABA2269E62200D9E3F6 /* ScheduleListModel.swift */; };
 		49E7DABD2269E6E600D9E3F6 /* ScheduleListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7DABC2269E6E600D9E3F6 /* ScheduleListVC.swift */; };
+		B8059B2D2270B78E001AEE65 /* CarerScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8059B2C2270B78E001AEE65 /* CarerScheduleViewController.swift */; };
+		B8059B2F2270B943001AEE65 /* CarerCodeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8059B2E2270B943001AEE65 /* CarerCodeEntryViewController.swift */; };
 		B88528AE2268923600A91E39 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528AD2268923600A91E39 /* AddItemVC.swift */; };
 		B88528B02268941600A91E39 /* NewScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528AF2268941600A91E39 /* NewScheduleVC.swift */; };
 		B88528B32268B87C00A91E39 /* ScheduleItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88528B22268B87C00A91E39 /* ScheduleItemModel.swift */; };
@@ -62,6 +64,8 @@
 		4971A5F7226A08BF00DB9846 /* ParentLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentLoginVC.swift; sourceTree = "<group>"; };
 		49E7DABA2269E62200D9E3F6 /* ScheduleListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListModel.swift; sourceTree = "<group>"; };
 		49E7DABC2269E6E600D9E3F6 /* ScheduleListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListVC.swift; sourceTree = "<group>"; };
+		B8059B2C2270B78E001AEE65 /* CarerScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarerScheduleViewController.swift; sourceTree = "<group>"; };
+		B8059B2E2270B943001AEE65 /* CarerCodeEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarerCodeEntryViewController.swift; sourceTree = "<group>"; };
 		B88528AD2268923600A91E39 /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
 		B88528AF2268941600A91E39 /* NewScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScheduleVC.swift; sourceTree = "<group>"; };
 		B88528B22268B87C00A91E39 /* ScheduleItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItemModel.swift; sourceTree = "<group>"; };
@@ -155,6 +159,9 @@
 				490550BD226C5C5200716BC7 /* RegisterViewController.swift */,
 				490550BF226C646500716BC7 /* ShowScheduleViewController.swift */,
 				3F3FC1DD227070D100193DC3 /* ARViewController.swift */,
+				B8059B2C2270B78E001AEE65 /* CarerScheduleViewController.swift */,
+				B8059B2E2270B943001AEE65 /* CarerCodeEntryViewController.swift */,
+
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -305,11 +312,13 @@
 				4971A5F8226A08BF00DB9846 /* ParentLoginVC.swift in Sources */,
 				B88528AE2268923600A91E39 /* AddItemVC.swift in Sources */,
 				B88528B02268941600A91E39 /* NewScheduleVC.swift in Sources */,
+				B8059B2F2270B943001AEE65 /* CarerCodeEntryViewController.swift in Sources */,
 				490550C0226C646500716BC7 /* ShowScheduleViewController.swift in Sources */,
 				B88528B32268B87C00A91E39 /* ScheduleItemModel.swift in Sources */,
 				49E7DABB2269E62200D9E3F6 /* ScheduleListModel.swift in Sources */,
 				3FC8FC9E226731D5005DA953 /* AppDelegate.swift in Sources */,
 				3F3FC1DE227070D100193DC3 /* ARViewController.swift in Sources */,
+				B8059B2D2270B78E001AEE65 /* CarerScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B53QCU5D2Y;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -503,7 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B53QCU5D2Y;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,6 +531,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -542,6 +552,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,6 +572,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -580,6 +592,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JV4JZFT3S;
 				INFOPLIST_FILE = LamaBabyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
