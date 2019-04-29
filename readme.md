@@ -1,6 +1,8 @@
 # Project Name
 An app to create an Augmented Reality map of your home to help carers find things around it. 
-( Screenshot 2019-04-25 at 09.53.42.png )
+
+![App Screenshot](https://github.com/mmar8/LAMAbaby_Final_Project/blob/master/Screenshot%202019-04-25%20at%2009.53.42.png)
+
 ## Technologies
 - Apple Xcode 10.2
 - Swift 5
