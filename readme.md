@@ -1,6 +1,6 @@
 # Project Name
 An app to create an Augmented Reality map of your home to help carers find things around it. 
-[ Screenshot 2019-04-25 at 09.53.42.png ]
+( Screenshot 2019-04-25 at 09.53.42.png )
 ## Technologies
 - Apple Xcode 10.2
 - Swift 5
