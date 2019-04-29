@@ -1,4 +1,4 @@
-# Project Name
+# L.A.M.A_Baby
 An app to create an Augmented Reality map of your home to help carers find things around it. 
 
 ![App Screenshot](https://github.com/mmar8/LAMAbaby_Final_Project/blob/master/Screenshot%202019-04-25%20at%2009.53.42.png)
